@@ -22,6 +22,8 @@ a:link, a:visited {
 .mainpage {
   display: grid;
   grid-template-columns: 150px 1fr;
+  height: 100vh;
+  background-color: #dbeafe;
 }
 
 .sidebar {
@@ -46,6 +48,7 @@ img {
   border-radius: 50%;
   height: 30px;
   margin-right: 30px;
+  margin-left: 20px;
 }
 
 .dashboard {
@@ -68,7 +71,8 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 5px;
+  padding-top: 10px;
+  background-color: white;
 }
 
 .searchbar {
@@ -91,6 +95,7 @@ img {
   justify-content: space-between;
   padding: 10px 15px 10px 15px;
   flex-wrap: nowrap;
+  background-color: white;
 }
 .hello {
   padding-left: 20px;
@@ -100,7 +105,8 @@ img {
   padding-left: 10px;
   border-radius: 10px;
   padding-right: 10px;
-  width: 250px;
+  margin-right: 10px;
+  width: 400px;
   border-style: none;
   background-color: #dbeafe;
   height: 20px;
@@ -134,9 +140,11 @@ img {
 }
 
 .projecttitle {
+  display: grid;
   grid-column: 1 / -1;
   margin-left: 10px;
   margin-top: 10px;
+  max-height: 20px;
 }
 
 .projectarea {
@@ -211,6 +219,15 @@ img {
 
 .user {
   margin: 10px;
+}
+
+.mainname {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  align-items: center;
+  min-width: 200px;
+  flex-wrap: nowrap;
 }
 
 .buttons {
